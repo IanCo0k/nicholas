@@ -4,7 +4,7 @@ const HeroSection: React.FC = () => {
   return (
     <div className="bg-gray-800 text-gray-200 flex justify-center items-center">
       <div className="max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
-        <h1 className="text-6xl lg:text-7xl font-bold text-center mb-8">Skills</h1>
+        <h1 className="text-4xl lg:text-7xl font-bold text-center mb-8">Skills</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <SkillCard title="Delegate Tasks" rating={8} />
           <SkillCard title="Access & Cover Breaking News" rating={9} />

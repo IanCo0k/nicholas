@@ -23,7 +23,7 @@ const TestimonialCard: React.FC = () => {
 
   return (
     <div>
-        <h1 className='text-6xl md:text-7xl text-gray-200 font-bold text-center my-8'>Endorsements</h1>
+        <h1 className='text-4xl md:text-7xl text-gray-200 font-bold text-center my-8'>Endorsements</h1>
         <div className="grid p-8 grid-cols-1 sm:grid-cols-3 gap-6">
             {testimonials.map((testimonial, index) => (
                 <div key={index} className="bg-gray-700 border-2 border-blue-200 rounded-lg p-6">

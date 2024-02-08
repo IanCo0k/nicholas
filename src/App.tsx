@@ -32,10 +32,10 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pl-10">
           <div className="relative w-full p-3 rounded md:p-8">
-            <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
+            <div className="rounded-lg aspect-square overflow-hidden">
               <iframe
                 className="w-full h-full"
-                src="https://www.youtube.com/embed/random-video-id"
+                src="https://www.youtube.com/embed/Tqp9mWMwAw4"
                 title="Random YouTube Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

@@ -16,9 +16,9 @@ const Navbar: React.FC = () => {
         <div className="hidden md:block">
           <ul className="flex space-x-4">
             <li><a href="#" className="text-gray-200 hover:text-gray-300">Home</a></li>
-            <li><a href="#" className="text-gray-200 hover:text-gray-300">About</a></li>
-            <li><a href="#" className="text-gray-200 hover:text-gray-300">Services</a></li>
-            <li><a href="#" className="text-gray-200 hover:text-gray-300">Contact</a></li>
+            <li><a href="#" className="text-gray-200 hover:text-gray-300">Skills</a></li>
+            <li><a href="#" className="text-gray-200 hover:text-gray-300">Reflection</a></li>
+            <li><a href="#" className="text-gray-200 hover:text-gray-300">Endorsements</a></li>
           </ul>
         </div>
         <div className="md:hidden">
@@ -40,9 +40,9 @@ const Navbar: React.FC = () => {
         <div className="md:hidden mt-2">
           <ul className="flex flex-col space-y-2">
             <li><a href="#" className="text-gray-200 hover:text-gray-300">Home</a></li>
-            <li><a href="#" className="text-gray-200 hover:text-gray-300">About</a></li>
-            <li><a href="#" className="text-gray-200 hover:text-gray-300">Services</a></li>
-            <li><a href="#" className="text-gray-200 hover:text-gray-300">Contact</a></li>
+            <li><a href="#" className="text-gray-200 hover:text-gray-300">Skills</a></li>
+            <li><a href="#" className="text-gray-200 hover:text-gray-300">Reflection</a></li>
+            <li><a href="#" className="text-gray-200 hover:text-gray-300">Endorsements</a></li>
           </ul>
         </div>
       )}
