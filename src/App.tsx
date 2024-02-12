@@ -5,6 +5,7 @@ import Reflection from './components/Reflection';
 import Endorsements from './components/Endorsements';
 import resume from './assets/resume.pdf';
 import script1 from './assets/script1.pdf';
+import logo from './assets/logo.png';
 import script2 from './assets/script2.pdf';
 import { AiOutlineDownload } from 'react-icons/ai';
 
@@ -16,6 +17,7 @@ const HeroSection: React.FC = () => {
       <div className="relative justify-center flex flex-col items-center max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8">
         <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10">
           <div className="text-left">
+            <div className='flex w-full justify-center p-2'><img src={logo} alt="Nick Martin Logo" className="md:w-40 md:h-40 w-20 h-20 rounded-full" /></div>
             <h2 className="text-5xl mb-4 text-center md:text-8xl font-extrabold leading-10 tracking-tight text-gray-200 sm:text-5xl sm:leading-none">
               Nick Martin
             </h2>
